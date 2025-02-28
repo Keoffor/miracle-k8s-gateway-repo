@@ -9,8 +9,3 @@ spec:
       port: 80
       protocol: HTTP
       hostname: "*.kenstudy.com"
-      routes:
-        kind: HTTPRoute
-        selector:
-          matchLabels:
-            app: miracle-http-route

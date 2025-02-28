@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b97ae2d5-5241-44f4-9fb4-141911dec2ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/kubernetes/mysql/mysql-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/mysql/mysql-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/gateway.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
