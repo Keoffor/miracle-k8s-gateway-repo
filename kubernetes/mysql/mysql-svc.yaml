@@ -13,4 +13,3 @@ spec:
   selector:       # mysql Pod Should contain same labels
     app: mysql
     tier: database
-  clusterIP: None  # We Use DNS, Thus ClusterIP is not relevant

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b97ae2d5-5241-44f4-9fb4-141911dec2ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kubernetes/http-route-client.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/http-route.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/http-route-backend.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/miracle_client/miracle-client-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/miracle_client/miracle-client-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/miracle_main/miracle-main-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/miracle_main/miracle-main-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/mysql/mysql-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/mysql/mysql-svc.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +28,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/kenob/OneDrive/Documents/miracle-k8s-gateway-repo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kenob/OneDrive/Documents/miracle-k8s-gateway-repo/kubernetes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kenob\OneDrive\Documents\miracle-k8s-gateway-repo\kubernetes" />
       <recent name="C:\Users\kenob\OneDrive\Documents\miracle-k8s-gateway-repo" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="miracle-k8s-gateway-repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="miracle-k8s-gateway-repo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

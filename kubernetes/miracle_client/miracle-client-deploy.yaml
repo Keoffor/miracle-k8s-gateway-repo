@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: miracle-client-app
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: miracle-client-app
-          image: keoffor/miracle-client-app:1.0
+          image: keoffor/miracle-client-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
