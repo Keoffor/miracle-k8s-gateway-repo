@@ -5,6 +5,7 @@ metadata:
 spec:
   parentRefs:
     - name: gateway
+      namespace: nginx-gateway
   hostnames:
     - "dev.kenstudy.com"
   rules:
@@ -21,4 +22,5 @@ spec:
             value: "/payment"
       backendRefs:
         - name: miracle-payment-svc
+          namespace: default
           port: 9193

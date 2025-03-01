@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b97ae2d5-5241-44f4-9fb4-141911dec2ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kubernetes/http-route-client.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/http-route.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/http-route-backend.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/miracle_client/miracle-client-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/miracle_client/miracle-client-deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/miracle_main/miracle-main-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/miracle_main/miracle-main-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/http-route-client.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/http-route-client.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kubernetes/mysql/mysql-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/mysql/mysql-svc.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
