@@ -7,7 +7,6 @@ metadata:
 spec:
   parentRefs:
     - name: gateway
-      namespace: nginx-gateway
   hostnames:
     - "hotel.kenstudy.com"
   rules:
@@ -17,5 +16,4 @@ spec:
             value: /
       backendRefs:
         - name: miracle-client-svc
-          namespace: default
           port: 8080
