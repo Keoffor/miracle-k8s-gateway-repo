@@ -5,22 +5,26 @@ metadata:
 spec:
   parentRefs:
     - name: gateway
-      namespace: nginx-gateway
   hostnames:
     - "dev.kenstudy.com"
   rules:
     - matches:
         - path:
             type: PathPrefix
-            value: "/main"
+            value: "/"
       backendRefs:
         - name: miracle-main-svc
           port: 9192
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: Authorization
+                value: "{http.request.header.Authorization}"
     - matches:
         - path:
             type: PathPrefix
             value: "/payment"
       backendRefs:
         - name: miracle-payment-svc
-          namespace: default
           port: 9193
