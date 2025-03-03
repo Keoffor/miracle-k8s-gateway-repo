@@ -1,0 +1,11 @@
+apiVersion: gateway.nginx.org/v1alpha1
+kind: ClientSettingsPolicy
+metadata:
+  name: gateway-client-settings
+spec:
+  targetRef:
+    group: gateway.networking.k8s.io
+    kind: Gateway
+    name: gateway
+  body:
+    maxSize: "200m" # sizes without a unit are bytes.
