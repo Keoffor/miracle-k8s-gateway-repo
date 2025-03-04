@@ -15,12 +15,6 @@ spec:
       backendRefs:
         - name: miracle-main-svc
           port: 9192
-      filters:
-        - type: RequestHeaderModifier
-          requestHeaderModifier:
-            add:
-              - name: Authorization
-                value: "{http.request.header.Authorization}"
     - matches:
         - path:
             type: PathPrefix
